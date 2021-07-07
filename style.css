@@ -1,0 +1,156 @@
+* {
+        margin:0; 
+        padding:0
+}
+
+body{
+        font-family: 'Roboto', sans-serif;
+        padding-left: 10%;
+        padding-right: 10%;
+}
+
+body img{
+        max-width: 100%;
+        height: auto;
+}
+body p{
+        font-size: 24px;
+}
+.top{
+        height: 100px;
+
+}
+ul {
+        float:right;
+        list-style: none;
+        display: inline-block;
+}
+li{
+        float: left;
+        padding: 35px;
+}
+li a{
+        text-decoration: none;
+        font-weight: 900;
+        font-size: 25px;
+}
+.half{
+        width: 45%;
+        float: left;
+
+}
+.half h1{
+        font-family: 'Bebas Neue', cursive;
+}
+.intro-combo{
+        height: 870px;
+}
+#intro{
+        padding-top: 120px;
+}
+#intro h1{
+        font-size: 100px;
+
+}
+.hire-button{
+        display: block;
+        width: 170px;
+        height: 60px;
+        margin-top: 50px;
+        text-decoration: none;
+        background-image: linear-gradient(45deg, #ff8063, #FF809F);
+        border-radius: 30px;
+        padding: 10px 30px;
+        font-family: cursive;
+        color: peachpuff;
+        font-weight: bold;
+        text-align: center;
+        font-size: 25px;
+        box-sizing: border-box;
+        position: absolute;
+        line-height: 37px;
+}
+.about-combo{
+        height: 920px;
+}
+#about{
+        padding: 5%;
+        margin-top: 7%;
+}
+#about h1{
+        font-size: 48px;
+}
+#about p{
+        font-family: cursive;
+        font-size: 22px;
+        text-align: justify;
+        margin-top: 3%;
+}
+.cv-button{
+        display: block;
+        width: 170px;
+        height: 60px;
+        margin-top: 30px;
+        text-decoration: none;
+        background-image: linear-gradient(45deg, #ff8063, #FF809F);
+        border-radius: 30px;
+        padding: 10px 0px;
+        font-family: ui-serif;
+        color: peachpuff;
+        font-weight: bold;
+        text-align: center;
+        font-size: 22px;
+        box-sizing: border-box;
+        position: absolute;
+        line-height: 37px;
+}
+.project{
+        height: 400px;
+        background-image: linear-gradient(0deg, pink, transparent);
+}
+.project h1{
+        font-family: 'Bebas Neue', cursive;
+        font-size: 70px;
+        text-align: center;
+        color: rgba(54, 57, 88, 1);
+
+}
+.one-third{
+        width: 30%;
+        float: left;
+        margin: 1.5%;
+        border: solid white 10px;
+        background: white;
+        box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.07);
+        border-radius: 20px;
+}
+.one-third p{
+        font-family: inherit;
+        font-size: 16px;
+        text-align: justify;
+        font-weight: 600;
+}
+.middle-part{
+        margin-left: 0px;
+        margin-right: 0px;
+}
+footer{
+        margin-top: 200px;
+        margin-bottom: 50px;
+}
+#text-section {
+        text-align: center;
+        font-family: Bebas Neue;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        color: #696871;
+
+      }
+#mail-address {
+        text-align: center;
+        font-family: cursive;
+        font-weight: normal;
+        font-size: 30px;
+        color: #363958;
+}
