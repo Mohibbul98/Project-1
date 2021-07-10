@@ -17,11 +17,11 @@ body p{
         font-size: 24px;
 }
 .top{
-        height: 100px;
+        height: 110px;
 
 }
 ul {
-        float:right;
+        float: right;
         list-style: none;
         display: inline-block;
 }
@@ -43,7 +43,11 @@ li a{
         font-family: 'Bebas Neue', cursive;
 }
 .intro-combo{
-        height: 870px;
+        height: 792px;
+}
+.intro-combo img{
+        max-width: 630px;
+        margin-left: 3%;
 }
 #intro{
         padding-top: 120px;
